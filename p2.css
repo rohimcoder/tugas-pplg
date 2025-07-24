@@ -1,0 +1,226 @@
+@import url("https://font.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&diplay=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: "poppins",sans-serif ;
+}
+
+body {
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1500px;
+    background-color: aliceblue;
+    margin : 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 35px 55px solid black;
+}
+
+.container .sisi_kiri {
+    position: relative;
+    background-color: green;
+    padding : 40px;
+}
+
+
+
+
+.imgbg img {
+    height: auto;
+    width: 100%;
+     
+}
+
+.profille-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(244, 234, 234);
+    
+}
+
+.profille-text .imgbg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profille-text .imgbg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profille-text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1,4em;
+
+}
+
+.profille-text h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact {
+    padding-top :40px;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor:pointer;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aquamarine;
+}
+
+.contact ul li .icon :hover {
+    color: deeppink;
+    
+}
+
+.contact ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.edukasi li {
+    margin-bottom: 15px;
+}
+
+.edukasi h5 {
+    color: aquamarine;
+    font-weight: 500;
+} 
+.edukasi h4 {
+    color: #fff;
+    font-weight: 500;
+}
+h5 {
+    margin-bottom: 7px;
+}
+
+.bahasa .persen {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #fff; 
+    display: block;
+    margin-top: 5px;
+}
+
+.bahasa .persen div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aquamarine;
+
+}
+
+.container .sisi_kanan {
+    position: relative;
+    background-color: aliceblue;
+    padding : 40px;
+}
+
+.tentang {
+    margin-bottom: 50px;
+}
+
+.title2 {
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color:black
+}
+.sisi_kanan .tentang .title2 p {
+    margin-top: 7px;
+    font-size: 15px;
+}
+
+.tentang .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.tentang .box .tahun {
+    min-width: 150px;
+}
+
+.tentang .box .tahun h5 {
+    text-transform: uppercase;
+    color: #848484;
+    font-weight: 600;
+}
+
+.random .persen div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: darkgreen;
+}
+
+.random .persen {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #fff; 
+    display: block;
+    margin-top: 5px;
+}
+
+.random .text  {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+p {
+    justify-content: space-between;
+}
